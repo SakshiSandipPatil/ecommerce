@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+    
+       body{
+        background: linear-gradient(135deg,rgb(53, 170, 135),rgb(58, 163, 132));
+       } 
+       
+        
+        
+                                                 
+        .homepage{
+            height: 100vh;
+            background-image: url(photo-1542291026-7eec264c27ff.avif);
+            background-position: right;
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+        }
+        .page{
+            background-color: rgb(212, 53, 32);
+        }
+       
+        .homepage:hover{
+            transition: 2s;
+            transform: scale(1.1);
+        }
+        .homepage h2{
+            color:white;
+            font-size: 70px;
+            margin: 0px 0px 5px 90px;
+
+        }
+        .hp1{
+            font-size: 70px;
+            color: rgb(44, 46, 175);
+            margin: 0px 0px 5px 90px;
+        }
+        .hp2{
+            font-size: 70px;
+            color:rgb(55, 243, 9) ;
+            margin: 0px 0px 5px 90px;
+        }
+        
+        .homepage p{
+            font-size: 20px;
+            margin: 0px 0px 20px 120px;
+        }
+        
+        .homepage button{
+            background-image: url(.images/button.png);
+            background-color:rgb(28, 188, 228);
+            height: 40px;
+            width: 180px;
+            margin: 5px 0px 5px 150px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border: none;
+        }
+        
+        .features{
+            height: 285px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        } 
+        .features .f-box{
+            height:100px;
+            width: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+
+        }  
+        .f-box img{
+            height: 60%;
+           
+            
+        }
+        .f-box button{
+            display: inline-block;
+            background-color:lightpink;
+            height: 20%;
+            margin-top: 5px;
+            padding:13px;
+            border-radius: 5%;
+            border: none;
+           
+        }
+        .f-box:hover{
+            transition: 2s;
+            transform: scale(1.1);
+            box-shadow: 2px 2px 20px 5px;
+           
+            
+
+        }
+        .productfeatures{
+
+
+        }
+        .productfeatures .fp{
+            align-items: center;
+            text-align: center;
+            font-size: 100px;
+
+        }
+        .productfeatures .ns{
+            align-items: center;
+            text-align: center;
+            font-size: 80px;
+        }
+        .productfeatures .spp{
+            align-items: center;
+            text-align: center;
+            font-size: 20px;
+        }
+        .products{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+            flex-wrap: wrap;
+
+        }
+        .p-card{
+            height: 380px;
+            width: 280px;
+            margin: 30px 20px ;
+           
+            
+        }
+        .p-card img{
+            height: 300px;
+            width: 100%;
+            object-fit: contain;
+            
+            
+
+            
+        }
+        .productfeatures .as{
+            align-items: center;
+            text-align: center;
+            font-size: 80px;
+            justify-content: center;
+        }
+        .productfeatures .rnm{
+            align-items: center;
+            text-align: center;
+            font-size: 20px;
+            justify-content: center;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <section class="container">
+    <section class="homepage">
+        <h2>Collection of</h2>
+        <h1 class="hp1">Fashion Trend</h1>
+        <h1 class="hp2">For Your Occasion</h1>
+        <p>Save More Coupons & Upto 45% off</p>
+        <button>Shop Now</button>
+    </section>
+    <section class="features">
+        <div class="f-box">
+            <img src="f1.png" alt="">
+            <button style="background-color: lemonchiffon;">Free Shipping</button>
+        </div>
+        <div class="f-box">
+            <img src="f2.png" alt="">
+            <button style="background-color: lightskyblue;">Online Order</button>
+
+        </div>
+            <div class="f-box">
+            <img src="f3.png" alt="">
+            <button style="background-color: aqua;">Save Money</button>
+        </div>
+        <div class="f-box">
+            <img src="f4.png" alt="">
+            <button style="background-color: lightsalmon;">Promotion</button></div>
+        </div>
+
+        <div class="f-box">
+            <img src="f5.png" alt="">
+            <button style="background-color: lightskyblue;">Support</button>
+        </div>
+            <div div class="f-box">
+                <img src="f6.png" alt="">
+                <button style="background-color: brown;">Happy Sell</button>
+            </div>
+    </section>
+    <section class="productfeatures">
+        <h1 class="fp">Featured Products</h1>
+        <h2 class="ns">Nike Shoes</h2>
+        <p class="spp">Rainy Collection New Modern Design</p> 
+        <div class="products">
+            <div class="p-card">
+                <img src="nike G.T.Cut 3 EP.png" alt="">
+                <span>Nike Shoes</span>
+                <h2>Nike G.T.Cut 3 EP</h2>
+                <strong>$200</strong>
+            </div>
+            <div class="p-card">
+                <img src="Nike Fly.By Mid 3.png" alt="">
+                <span>Nike Shoes</span>
+                <h2>Nike Fly.By Mid 3</h2>
+                <strong>$250</strong>
+            </div>
+            <div class="p-card">
+                <img src="Nike Court Legacy Lift.png "alt="">
+                <span>Nike Shoes</span>
+                <h2>Nike Court Legacy Lift</h2>
+                <strong>$300</strong>
+            </div>
+            <div class="p-card">
+                <img src="Nike Air Max 90 LV8.png" alt="">
+                <span>Nike Shoes</span>
+                <h2>Nike Air Max 90 LV8</h2>
+                <strong>$100</strong>
+            </div>
+            <div class="p-card">
+                <img src="Air Max 1 EasyOn.png" alt="">
+                <span>Nike Shoes</span>
+                <h2>Air Max 1 EasyOn</h2>
+                <strong>$500</strong>
+            </div>
+            <div class="p-card">
+                <img src="Nike Phantom Luna 2 Academy.png" alt="">
+                <span>Nike Shoes</span>
+                <h2>Nike Phantom Luna 2 Academy</h2>
+                <strong>$550</strong>
+            </div>
+            <div class="p-card">
+                <img src="Air Jordan 5 Retro 'Lucky Green'.png" alt="">
+                <span>Nike Shoes</span>
+                <h2>Air Jordan 5 Retro 'Lucky Green'</h2>
+                <strong>$350</strong>
+            </div>
+            <div class="p-card">
+                <img src="Nike Air Max 1 SE EasyOn.png" alt="">
+                <span>Nike Shoes</span>
+                <h2>Nike Air Max 1 SE EasyOn</h2>
+                <strong>$499</strong>
+    
+                </div>
+            <section class="page">
+            <h2 class="as">Adidas Shoes</h2>
+            <p class="rnm">Running New Modern Shoes</p>
+            </section>
+            <div class="p-card">
+                <img src="Adistar Cusion Sporty & Rich Original shoes.avif" alt="">
+                <span>Adidas Shoes</span>
+                <h2>Adistar Cusion Sporty & Rich Original shoes</h2>
+                <strong>$399</strong>
+            </div>
+            <div class="p-card">
+                <img src="fw24_sl_72_launch_hp_tc_d_58a47cf235.avif" alt="">
+                <span>Adidas Shoes</span>
+                <h2>Samba OG Shoes</h2>
+                <strong>$250</strong>
+            </div>
+            <div class="p-card">
+                <img src="Gazelle Shoes.avif" alt="">
+                <span>Adidas Shoes</span>
+                <h2>Gazelle Shoes</h2>
+                <strong>$299</strong>
+            </div>
+            <div class="p-card">
+                <img src="SL 72 RS Shoes.avif" alt="">
+                <span>Adidas Shoes</span>
+                <h2>SL 72 RS Shoes</h2>
+                <strong>$800</strong>
+            </div>
+            <div class="p-card">
+                <img src="Own_the_Game_3_Shoes_White_IF4565_01_standard.avif" alt="">
+                <span>Adidas Shoes</span>
+                <h2>Gaming Shoes</h2>
+                <strong>$799</strong>
+            </div>
+            <div class="p-card">
+                <img src="x-crazyfast-league-firm-ground-boots.avif" alt="">
+                <span>Adidas Shoes</span>
+                <h2>Firm Ground boots</h2>
+                <strong>$689</strong>
+            </div>
+            <div class="p-card">
+                <img src="GAZELLE_BOLD_SHOES_Blue_IE0430_01_standard.avif" alt="">
+                <span>Adidas Shoes</span>
+                <h2>Gazalle bold shoes</h2>
+                <strong>$599</strong>
+            </div>
+           
+
+
+           
+                           
+        </div>
+        </section>
+    </section>
+    </section>
+</body>
+</html>
